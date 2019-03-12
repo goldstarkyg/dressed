@@ -1,0 +1,82 @@
+#image-preview {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border:1px #e3e3e3 solid;
+    display: inline-block;
+}
+#image-preview input {
+    line-height: 170px;
+    font-size: 170px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#image-preview label:hover {
+    background-color: #1ab394;
+}
+#image-upload:hover {
+    background-color: #1ab394;
+}
+#image-preview2 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border:1px #e3e3e3 solid;
+    display: inline-block;
+}
+#image-preview2 input {
+    line-height: 170px;
+    font-size: 170px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview2 label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#image-preview2 label:hover {
+    background-color: #1ab394;
+}
+#image-upload2:hover {
+    background-color: #1ab394;
+}

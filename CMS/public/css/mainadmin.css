@@ -1,0 +1,100 @@
+.user-avatar-nav {
+    background: url(../images/userimage.png) 50% 50% no-repeat;
+    background-size: auto 100%;
+}
+.user-avatar-nav {
+    margin-top: -3px;
+    margin-right: 1em;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.usermenu{
+    display:none !important;
+}
+.bigusermenu{
+    display:block !important;
+}
+
+
+
+.hideShowPassword-toggle-hide {
+    background-position: -44px center;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #1ab394;
+    text-decoration: none;
+    background-color: #f3f3f4;
+    outline: 0;
+}
+
+form .active {
+    color: green;
+}
+
+form.form-inline {
+    display: inline-block;
+}
+
+.switch {
+    cursor: pointer;
+}
+
+.switch .fa {
+    vertical-align: -5px;
+    margin-right: .25em;
+}
+
+.switch .active {
+    display: none;
+}
+
+.switch input[type="radio"] {
+    position: relative;
+    z-index: -1;
+}
+
+.switch.checked .active {
+    display: inline-block;
+}
+
+.switch.checked .inactive {
+    display: none;
+}
+
+.disabled {
+    color: #dcdbdb;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.disabled .switch span.active {
+    color: #dcdbdb;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+
+
+@media (max-width: 800px) {
+    .usermenu {
+        display: block !important;
+    }
+    .bigusermenu{
+        display:none !important;
+    }
+    .container{
+        padding: 0px;
+    }
+}

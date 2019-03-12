@@ -1,0 +1,28 @@
+.user-avatar-nav {
+    background: url(../images/userimage.png) 50% 50% no-repeat;
+    background-size: auto 100%;
+}
+.user-avatar-nav {
+    margin-top: -3px;
+    margin-right: 1em;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .welcome-message {
+        display: none;
+    }
+}
